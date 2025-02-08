@@ -46,5 +46,47 @@
      <!-- question 4 -->
      <video controls src="https://videos.pexels.com/video-files/9084238/9084238-sd_640_360_30fps.mp4"></video>
 
+     <!-- question 9 -->
+     <h2>Select Your Favorite Programming Languages</h2>
+     <form action="submit.php" method="post">
+         <input type="checkbox" id="javascript" name="languages[]" value="JavaScript">
+         <label for="javascript">JavaScript</label><br>
+ 
+         <input type="checkbox" id="python" name="languages[]" value="Python">
+         <label for="python">Python</label><br>
+ 
+         <input type="checkbox" id="java" name="languages[]" value="Java">
+         <label for="java">Java</label><br>
+ 
+         <input type="checkbox" id="cpp" name="languages[]" value="C++">
+         <label for="cpp">C++</label><br>
+ 
+         <br>
+         <input type="submit" value="Submit">
+     </form>
+     <!-- question 10 -->
+     <h2>Rate Your Experience</h2>
+     <form action="submit_feedback.php" method="post">
+         <label>
+             <input type="radio" name="rating" value="1"> ★☆☆☆☆ (1)
+         </label><br>
+         <label>
+             <input type="radio" name="rating" value="2"> ★★☆☆☆ (2)
+         </label><br>
+         <label>
+             <input type="radio" name="rating" value="3"> ★★★☆☆ (3)
+         </label><br>
+         <label>
+             <input type="radio" name="rating" value="4"> ★★★★☆ (4)
+         </label><br>
+         <label>
+             <input type="radio" name="rating" value="5"> ★★★★★ (5)
+         </label><br><br>
+ 
+         <input type="submit" value="Submit Feedback">
+     </form>
+ 
+ 
+
 </body>
 </html>
