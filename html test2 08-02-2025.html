@@ -7,11 +7,13 @@
 </head>
 <body>
     <!-- question 1 -->
-    <label for="username">Username<span style="color:red;">*</span></label><br>
-    <input text="username" name="username" required><br><br>
-    <label for="password">password<span style="color:red;">*</span></label><br>
-    <input type="password" name="password" required><br><br>
-    <button>Submit</button><br><br>
+    <form action="#" method="post">
+        <label for="username">Username<span style="color:red;">*</span></label><br>
+        <input text="username" name="username" required><br><br>
+        <label for="password">password<span style="color:red;">*</span></label><br>
+        <input type="password" name="password" required><br><br>
+        <button>Submit</button><br><br>
+    </form>
 
     <!-- question 2 -->
     <label for="email">Email<span style="color:red;">*</span></label><br>
@@ -42,13 +44,53 @@
         <td>Row3 Column3</td>
         <td>Row3 Column4</td>
        </tr>
-     </table>
+     </table><br><br>
+
      <!-- question 4 -->
-     <video controls src="https://videos.pexels.com/video-files/9084238/9084238-sd_640_360_30fps.mp4"></video>
+     <video controls src="https://videos.pexels.com/video-files/9084238/9084238-sd_640_360_30fps.mp4"></video><br><br>
+
+     <!-- question 5 -->
+     <a href="image1.jpg" target="_blank"><img src="image1.jpg" width="150"></a>
+     <a href="image2.jpg" target="_blank"><img src="image2.jpg" width="150"></a>
+     <a href="image3.jpg" target="_blank"><img src="image3.jpg" width="150"></a><br><br>
+
+    <!-- question 6 -->
+    <label for="dropdown">Choose a color:</label>
+    <select id="colors" name="colors">
+       <option value="" selected disabled>Select One</option>
+       <option value="red">Red</option>
+       <option value="blue">Blue</option>
+       <option value="green">Green</option>
+    </select><br><br>
+
+    <!-- question 7 -->
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#section1">Introduction</a></li>
+        <li><a href="#section2">About Us</a></li>
+        <li><a href="#section3">Services</a></li>
+        <li><a href="#section4">Contact</a></li>
+    </ol>
+
+    <!-- question 8 -->
+    <details>
+    <summary>What is HTML?</summary>
+    <p>HTML stands for HyperText Markup Language.</p>
+    </details>
+
+    <details>
+    <summary>What is CSS?</summary>
+    <p>CSS is used to style web pages.</p>
+    </details>
+
+    <details>
+    <summary>What is JavaScript?</summary>
+    <p>JavaScript is a programming language used for web development.</p>
+    </details><br>
 
      <!-- question 9 -->
      <h2>Select Your Favorite Programming Languages</h2>
-     <form action="submit.php" method="post">
+     <form>
          <input type="checkbox" id="javascript" name="languages[]" value="JavaScript">
          <label for="javascript">JavaScript</label><br>
  
@@ -64,24 +106,23 @@
          <br>
          <input type="submit" value="Submit">
      </form>
-     <!-- question 7 -->
-     <h2>Table of Contents</h2>
-     <ol>
-         <li><a href="#section1">Introduction</a></li>
-         <li><a href="#section2">About Us</a></li>
-         <li><a href="#section3">Services</a></li>
-         <li><a href="#section4">Contact</a></li>
-     </ol>
-
-    <!-- question 6 -->
-    <label for="dropdown">Choose a color:</label>
-    <select id="dropdown" name="colors">
-       <option value="" selected disabled>Select One</option>
-       <option value="red">Red</option>
-       <option value="blue">Blue</option>
-       <option value="green">Green</option>
-    </select>
      
+    <!-- question 10 -->
+     <form>
+        <input type="radio" name="rating">
+        <label for="rating">*</label>
+        <input type="radio" name="rating">
+        <label for="rating">**</label>
+        <input type="radio" name="rating">
+        <label for="rating">***</label>
+        <input type="radio" name="rating">
+        <label for="rating">****</label>
+        <input type="radio" name="rating">
+        <label for="rating">*****</label>
+        <button type="submit">submit</button>
+     </form>
+ 
+
     
 </body>
 </html>
